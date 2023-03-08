@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --back: #000000;
+  --blue: #25158a;
+  --pink: #ed6755;
+  --white: #ffffff;
+}
+
+/* cards */
+#cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  height: 100vh;
+}
+.card-container {
+  height: 299px;
+  width: 332px;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card-container p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 10px;
+}
+.card-container input {
+  background: var(--pink);
+  border: none;
+  padding: 15px 10px;
+  border-radius: 10px;
+  width: 50%;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 500;
+}
+.sesion {
+  gap: 30px;
+}
+.sesion input {
+  background: var(--blue);
+}
